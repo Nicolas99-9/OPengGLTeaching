@@ -124,6 +124,9 @@ int main(void) {
 		0, 1, 3,  // First Triangle
 		1, 2, 3   // Second Triangle
 	};
+
+	// create the unique id for the VBO, VAO EBO
+
 	GLuint VBO, VAO, EBO;
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
