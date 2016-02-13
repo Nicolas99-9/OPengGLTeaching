@@ -2,6 +2,9 @@
 // ======================
 GLfloat offset = 0.5f;
 
+//glUniform1f => set an uniform value in the active programm
+// first argument => take the location of the uniform value
+// then take the value
 glUniform1f(glGetUniformLocation(ourShader.Program, "xOffset"), offset);
 
 // In your vertex shader:
