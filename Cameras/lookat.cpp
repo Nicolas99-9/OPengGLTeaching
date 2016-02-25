@@ -31,6 +31,8 @@ glm::mat4 calculate_lookAt_matrix(glm::vec3 position, glm::vec3 target, glm::vec
 }
 
 
+//calculate the matrix of the camera
+
 // Don't forget to replace glm::lookAt with your own version
 // view = glm::lookAt(glm::vec3(camX, 0.0f, camZ), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 view = calculate_lookAt_matrix(glm::vec3(camX, 0.0f, camZ), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
